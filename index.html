@@ -15,16 +15,28 @@
             <div class="row w-100 m-auto ">
                 <div class="col-md-6 text-center">
                     <h2>Left side</h2>
+                    <!-- player search area -->
                     <div class="input-group mb-3">
                         <input id="search-box" type="text" class="form-control" placeholder="Search player name" aria-label="Recipient's username" aria-describedby="button-addon2">
                         <button onclick="searchPlayers()" class="btn btn-outline-secondary" type="button" id="search-button">Search</button>
                     </div>
-                    <div id="player-container">
-                      
+                    <!-- spinner -->
+                    <img id="spinner" src="images/spinner.gif" alt="">
+                    <!-- player search result -->
+                    <div id="search-result">
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
                     <h2>right side</h2>
+                    <div id="image">
+                        <img id="male" class="img-fluid w-75" src="images/male.jpg" alt="">
+                        <img id="female" class="img-fluid w-75" src="images/female.jpg" alt="">
+                    </div>
+                    <!-- player show details -->
+                    <div id="player-details" class="row row-cols-1 row-cols-md-2 g-4 ">
+                        <div class="col ">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
